@@ -83,7 +83,7 @@ const resolvers = {
     },
     removePost: async (parent, { postId }, context) => {
       if (context.user) {
-        const post = await Thought.findOneAndDelete({
+        const post = await Post.findOneAndDelete({
           _id: postId,
           postAuthor: context.user.username,
         });
