@@ -9,12 +9,12 @@ const Footer = () => {
           <span
             className="emoji"
             role="img"
-            aria-label="heart"
+            aria-label="puzzle"
             aria-hidden="false"
           >
-            ❤️
+            🧩
           </span>{' '}
-          by the Tech Thoughts team.
+          by ASD Nudge team.
         </h4>
       </div>
     </footer>
