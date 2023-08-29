@@ -4,8 +4,8 @@ export const QUERY_THOUGHTS = gql`
   query getThoughts {
     thoughts {
       _id
-      thoughtText
-      thoughtAuthor
+      PostText
+      PostAuthor
       createdAt
     }
   }

@@ -3,7 +3,7 @@ import { useMutation } from '@apollo/client';
 
 import { ADD_THOUGHT } from '../../utils/mutations';
 
-const ThoughtForm = () => {
+const PostForm = () => {
   const [formState, setFormState] = useState({
     thoughtText: '',
     thoughtAuthor: '',
@@ -90,4 +90,4 @@ const ThoughtForm = () => {
   );
 };
 
-export default ThoughtForm;
+export default PostForm;
