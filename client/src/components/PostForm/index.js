@@ -3,7 +3,7 @@ import { useMutation } from '@apollo/client';
 
 import { ADD_THOUGHT } from '../../utils/mutations';
 
-const ThoughtForm = () => {
+const PostForm = () => {
   const [formState, setFormState] = useState({
     thoughtText: '',
     thoughtAuthor: '',
@@ -32,17 +32,17 @@ const ThoughtForm = () => {
   const handleChange = (event) => {
     const { name, value } = event.target;
 
-    if (name === 'thoughtText' && value.length <= 280) {
+    if (name === 'PostText' && value.length <= 280) {
       setFormState({ ...formState, [name]: value });
       setCharacterCount(value.length);
-    } else if (name !== 'thoughtText') {
+    } else if (name !== 'PostText') {
       setFormState({ ...formState, [name]: value });
     }
   };
 
   return (
     <div>
-      <h3>What's on your techy mind?</h3>
+      <h3>Have a question or comment to share?</h3>
 
       <p
         className={`m-0 ${
@@ -58,18 +58,18 @@ const ThoughtForm = () => {
       >
         <div className="col-12">
           <textarea
-            name="thoughtText"
+            name="PostText"
             placeholder="Here's a new thought..."
-            value={formState.thoughtText}
+            value={formState.PostText}
             className="form-input w-100"
             onChange={handleChange}
           ></textarea>
         </div>
         <div className="col-12 col-lg-9">
           <input
-            name="thoughtAuthor"
+            name="PostAuthor"
             placeholder="Add your name to get credit for the thought..."
-            value={formState.thoughtAuthor}
+            value={formState.PostAuthor}
             className="form-input w-100"
             onChange={handleChange}
           />
@@ -90,4 +90,4 @@ const ThoughtForm = () => {
   );
 };
 
-export default ThoughtForm;
+export default PostForm;

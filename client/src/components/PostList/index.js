@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ThoughtList = ({ thoughts, title }) => {
+const PostList = ({ thoughts, title }) => {
   if (!thoughts.length) {
     return <h3>No Thoughts Yet</h3>;
   }
@@ -26,4 +26,4 @@ const ThoughtList = ({ thoughts, title }) => {
   );
 };
 
-export default ThoughtList;
+export default PostList;
