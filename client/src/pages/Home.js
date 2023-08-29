@@ -4,11 +4,11 @@ import { useQuery } from '@apollo/client';
 import PostList from '../components/PostList';
 import PostForm from '../components/PostForm';
 
-import { QUERY_THOUGHTS } from '../utils/queries';
+import { QUERY_POSTS } from '../utils/queries';
 
 const Home = () => {
-  const { loading, data } = useQuery(QUERY_THOUGHTS);
-  const thoughts = data?.thoughts || [];
+  const { loading, data } = useQuery(QUERY_POSTS);
+  const posts = data?.posts || [];
 
   return (
     <main>
@@ -24,7 +24,7 @@ const Home = () => {
             <div>Loading...</div>
           ) : (
             <PostList
-              thoughts={thoughts}
+              posts={posts}
               title="Some Feed for Thought(s)..."
             />
           )}
