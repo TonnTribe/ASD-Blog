@@ -1,25 +1,24 @@
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 
-import { ADD_THOUGHT } from '../../utils/mutations';
+import { ADD_POST } from '../../utils/mutations';
 
 const PostForm = () => {
   const [formState, setFormState] = useState({
-    thoughtText: '',
-    thoughtAuthor: '',
+    postText: '',
+    postAuthor: '',
   });
   const [characterCount, setCharacterCount] = useState(0);
 
   // Set up our mutation with an option to handle errors
-  const [addThought, { error }] = useMutation(ADD_THOUGHT);
+  const [addPost, { error }] = useMutation(ADD_POST);
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
     // On form submit, perform mutation and pass in form data object as arguments
-    // It is important that the object fields are match the defined parameters in `ADD_THOUGHT` mutation
     try {
-      const { data } = addThought({
+      const { data } = addPost({
         variables: { ...formState },
       });
 
@@ -60,7 +59,7 @@ const PostForm = () => {
           <textarea
             name="PostText"
             placeholder="Here's a new thought..."
-            value={formState.PostText}
+            value={formState.postText}
             className="form-input w-100"
             onChange={handleChange}
           ></textarea>
@@ -69,7 +68,7 @@ const PostForm = () => {
           <input
             name="PostAuthor"
             placeholder="Add your name to get credit for the thought..."
-            value={formState.PostAuthor}
+            value={formState.postAuthor}
             className="form-input w-100"
             onChange={handleChange}
           />

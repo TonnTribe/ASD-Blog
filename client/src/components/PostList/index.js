@@ -1,24 +1,24 @@
 import React from 'react';
 
-const PostList = ({ thoughts, title }) => {
-  if (!thoughts.length) {
+const PostList = ({ posts, title }) => {
+  if (!posts.length) {
     return <h3>No Thoughts Yet</h3>;
   }
 
   return (
     <div>
       <h3>{title}</h3>
-      {thoughts &&
-        thoughts.map((thought) => (
-          <div key={thought._id} className="card mb-3">
+      {posts &&
+        posts.map((post) => (
+          <div key={post._id} className="card mb-3">
             <h4 className="card-header bg-primary text-light p-2 m-0">
-              {thought.thoughtAuthor} <br />
+              {post.postAuthor} <br />
               <span style={{ fontSize: '1rem' }}>
-                had this thought on {thought.createdAt}
+                had this thought on {post.createdAt}
               </span>
             </h4>
             <div className="card-body bg-light p-2">
-              <p>{thought.thoughtText}</p>
+              <p>{post.postText}</p>
             </div>
           </div>
         ))}
