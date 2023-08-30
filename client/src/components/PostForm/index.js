@@ -31,10 +31,10 @@ const PostForm = () => {
   const handleChange = (event) => {
     const { name, value } = event.target;
 
-    if (name === 'PostText' && value.length <= 280) {
+    if (name === 'postText' && value.length <= 280) {
       setFormState({ ...formState, [name]: value });
       setCharacterCount(value.length);
-    } else if (name !== 'PostText') {
+    } else if (name !== 'postText') {
       setFormState({ ...formState, [name]: value });
     }
   };
@@ -57,7 +57,7 @@ const PostForm = () => {
       >
         <div className="col-12">
           <textarea
-            name="PostText"
+            name="postText"
             placeholder="Here's a new thought..."
             value={formState.postText}
             className="form-input w-100"
@@ -66,7 +66,7 @@ const PostForm = () => {
         </div>
         <div className="col-12 col-lg-9">
           <input
-            name="PostAuthor"
+            name="postAuthor"
             placeholder="Add your name to get credit for the thought..."
             value={formState.postAuthor}
             className="form-input w-100"
