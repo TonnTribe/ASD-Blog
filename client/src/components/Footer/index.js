@@ -12,7 +12,7 @@ const Footer = () => {
             aria-label="puzzle"
             aria-hidden="false"
           >
-          <img alt="asd logo" src="emoji-puzzle-yellow.png" width="25px"/>
+          <img alt="asd logo" src="puzzle.gif" width="25px"/>
           </span>{' '}
           by ASD Nudge team.
         </h4>
