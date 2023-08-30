@@ -5,14 +5,14 @@ const Footer = () => {
     <footer className="w-100 mt-auto bg-primary p-4">
       <div className="container text-center mb-5">
         <h4>
-          Made with{' '}
+        Made to understand{' '}
           <span
             className="emoji"
             role="img"
             aria-label="puzzle"
             aria-hidden="false"
           >
-            🧩
+          <img alt="asd logo" src="emoji-puzzle-yellow.png" width="25px"/>
           </span>{' '}
           by ASD Nudge team.
         </h4>
