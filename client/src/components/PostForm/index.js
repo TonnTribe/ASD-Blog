@@ -41,7 +41,7 @@ const PostForm = () => {
 
   return (
     <div>
-      <h3>Have a question or comment to share?</h3>
+      <h3>What's on your mind?</h3>
 
       <p
         className={`m-0 ${
