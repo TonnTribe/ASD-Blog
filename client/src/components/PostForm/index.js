@@ -58,7 +58,7 @@ const PostForm = () => {
         <div className="col-12">
           <textarea
             name="postText"
-            placeholder="Here's a new thought..."
+            placeholder="Here's a new post..."
             value={formState.postText}
             className="form-input w-100"
             onChange={handleChange}
@@ -67,7 +67,7 @@ const PostForm = () => {
         <div className="col-12 col-lg-9">
           <input
             name="postAuthor"
-            placeholder="Add your name to get credit for the thought..."
+            placeholder="Add your name to get credit for the post..."
             value={formState.postAuthor}
             className="form-input w-100"
             onChange={handleChange}
@@ -76,7 +76,7 @@ const PostForm = () => {
 
         <div className="col-12 col-lg-3">
           <button className="btn btn-primary btn-block py-3" type="submit">
-            Add Thought
+            Add a post
           </button>
         </div>
         {error && (

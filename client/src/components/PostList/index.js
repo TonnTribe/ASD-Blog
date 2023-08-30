@@ -2,7 +2,7 @@ import React from 'react';
 
 const PostList = ({ posts, title }) => {
   if (!posts.length) {
-    return <h3>No Thoughts Yet</h3>;
+    return <h3>No Posts Yet</h3>;
   }
 
   return (
@@ -14,7 +14,7 @@ const PostList = ({ posts, title }) => {
             <h4 className="card-header bg-primary text-light p-2 m-0">
               {post.postAuthor} <br />
               <span style={{ fontSize: '1rem' }}>
-                had this thought on {post.createdAt}
+                had this post on {post.createdAt}
               </span>
             </h4>
             <div className="card-body bg-light p-2">
