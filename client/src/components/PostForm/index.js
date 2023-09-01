@@ -47,19 +47,19 @@ const PostForm = () => {
     });
 
     setPostText('');
-    } catch (e) {
-      console.error(e);
+    } catch (err) {
+      console.error(err);
     }
   };
 
-  const handleChange = (event) => {
+  function handleChange(event) {
     const { name, value } = event.target;
 
     if (name === 'postText' && value.length <= 280) {
       setPostText(value);
       setCharacterCount(value.length);
     }
-  };
+  }
 
   return (
     <div>
