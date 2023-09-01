@@ -17,7 +17,7 @@ const PostForm = () => {
     update(cache, { data: { addPost } }) {
       try {
         const { posts } = cache.readQuery({ query: QUERY_POSTS });
-
+        console.log("posts from cache", posts);
         cache.writeQuery({
           query: QUERY_POSTS,
           data: { posts: [addPost, ...posts] },
@@ -39,27 +39,29 @@ const PostForm = () => {
     event.preventDefault();
 
     try {
+      console.log("postText", postText);
+      console.log("postAuthor", Auth.getProfile().data.username);
       const { data } = await addPost({
         variables: {
           postText,
           postAuthor: Auth.getProfile().data.username,
         },
     });
-
+    console.log("data", data);
     setPostText('');
-    } catch (e) {
-      console.error(e);
+    } catch (err) {
+      console.error(err);
     }
   };
 
-  const handleChange = (event) => {
+  function handleChange(event) {
     const { name, value } = event.target;
 
     if (name === 'postText' && value.length <= 280) {
       setPostText(value);
       setCharacterCount(value.length);
     }
-  };
+  }
 
   return (
     <div>
