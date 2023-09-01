@@ -49,12 +49,13 @@ const resolvers = {
       return { token, user };
     },
     addPost: async (parent, { postText }, context) => {
+      console.log("context", context);
       if (context.user) {
         const post = await Post.create({
           postText,
           postAuthor: context.user.username,
         });
-
+        console.log("post", post);
         await User.findOneAndUpdate(
           { _id: context.user._id },
           { $addToSet: { posts: post._id } }
