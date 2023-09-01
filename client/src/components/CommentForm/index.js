@@ -41,7 +41,7 @@ const CommentForm = ({ postId }) => {
 
   return (
     <div>
-      <h4>Add a comment on this post</h4>
+      <h4>Add a comment to this post</h4>
 
       {Auth.loggedIn() ? (
         <>
@@ -60,7 +60,7 @@ const CommentForm = ({ postId }) => {
             <div className="col-12 col-lg-9">
               <textarea
                 name="commentText"
-                placeholder="Add your comment..."
+                placeholder="Write a comment..."
                 value={commentText}
                 className="form-input w-100"
                 style={{ lineHeight: '1.5', resize: 'vertical' }}
