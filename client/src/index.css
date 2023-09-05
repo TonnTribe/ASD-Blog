@@ -374,6 +374,7 @@
   
   h1 {
     font-size: 2.25rem;
+    color: #484848;
   }
   
   h2 {
@@ -386,6 +387,7 @@
   }
   
   h4 {
+    color: #484848;
     font-size: 1.5rem;
   }
   
@@ -705,7 +707,7 @@
   }
   
   .p-5 {
-    padding: 1.625rem !important;
+    padding: 1.625rem !important; 
   }
   
   /* padding-bottom */
@@ -863,6 +865,7 @@
   .py-4 {
     padding-top: 1.375rem !important;
     padding-bottom: 1.375rem !important;
+    border-radius: 0.5rem;
   }
   
   .py-5 {
@@ -891,7 +894,7 @@
   }
   
   .text-primary {
-    color: #2d3e50 !important;
+    color: #1a1a1a !important;
   }
   
   .text-info {
@@ -903,11 +906,11 @@
   }
   
   .text-default {
-    color: #696969 !important;
+    color: #1a1a1a !important;
   }
   
   .text-light {
-    color: #696969 !important;
+    color: #1a1a1a !important;
   }
   
   .text-dark {
@@ -940,11 +943,11 @@
   }
   
   .bg-light {
-    background-color: #d9e9e8 !important;
+    background-color: #83c3f1 !important;
   }
   
   .bg-dark {
-    background-color: #1a1a1a !important;
+    background-color: #83c3f1 !important;
   }
   
   .bg-white {
@@ -1094,6 +1097,7 @@
   .card {
     border: 1px solid #1a1a1a;
     margin-bottom: 1rem;
+    border-radius: 0.5rem;
   }
   
   .card .card-header { /* MAKE IT A BUTTON WITH HOVER */
@@ -1483,6 +1487,7 @@
     .col-md-10 {
       flex: 0 0 83.33333%;
       max-width: 83.33333%;
+      border-radius: 0.5rem;
     }
     .col-md-11 {
       flex: 0 0 91.66667%;
