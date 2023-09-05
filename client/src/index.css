@@ -1041,21 +1041,21 @@
   }
   
   .btn.btn-info {
-    background-color: #1bbc9b;
+    background-color: #e9e91a;
     color: #ffffff;
   }
   
   .btn.btn-info:hover {
-    background-color: #31e1bd;
+    background-color: #FFFF00;
   }
   
   .btn.btn-light {
-    background-color: #d9e9e8;
+    background-color: #d81414f7;
     color: #1a1a1a;
   }
   
   .btn.btn-light:hover {
-    background-color: #84b8b4;
+    background-color: #FF0000;
   }
   
   .btn.btn-dark {
