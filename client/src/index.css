@@ -707,7 +707,7 @@
   }
   
   .p-5 {
-    padding: 1.625rem !important;
+    padding: 1.625rem !important; 
   }
   
   /* padding-bottom */
@@ -910,7 +910,7 @@
   }
   
   .text-light {
-    color: #696969 !important;
+    color: #1a1a1a !important;
   }
   
   .text-dark {
@@ -947,7 +947,7 @@
   }
   
   .bg-dark {
-    background-color: #1a1a1a !important;
+    background-color: #83c3f1 !important;
   }
   
   .bg-white {
