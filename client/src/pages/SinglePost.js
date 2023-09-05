@@ -33,7 +33,7 @@ const SinglePost = () => {
       </h3>
       <div className="bg-dark py-2" style={{ border: '1px solid #1a1a1a' }}>
         <blockquote
-          className="p-2"
+          className="bg-dark py-2"
           style={{
             fontSize: '1.25rem',
             lineHeight: '.5',
