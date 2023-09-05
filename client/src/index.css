@@ -855,6 +855,7 @@
   .py-2 {
     padding-top: 0.625rem !important;
     padding-bottom: 0.625rem !important;
+    border-radius: 0.5rem;
   }
   
   .py-3 {
@@ -939,7 +940,7 @@
   }
   
   .bg-danger {
-    background-color: #e64c66 !important;
+    background-color: #F16C6B !important;
   }
   
   .bg-light {
@@ -1032,7 +1033,7 @@
   }
   
   .btn.btn-danger {
-    background-color: #e64c66;
+    background-color: #AF5F62;
     color: #ffffff;
   }
   
@@ -1041,21 +1042,23 @@
   }
   
   .btn.btn-info {
-    background-color: #e9e91a;
-    color: #ffffff;
+    background-color: #FEE242;
+    color: #1a1a1a;
+    text-decoration: none;
   }
   
   .btn.btn-info:hover {
-    background-color: #FFFF00;
+    background-color: #F1C400;
   }
   
   .btn.btn-light {
-    background-color: #d81414f7;
+    background-color: #F16C6B;
     color: #1a1a1a;
   }
   
   .btn.btn-light:hover {
-    background-color: #FF0000;
+    background-color: #C43838;
+    color: white;
   }
   
   .btn.btn-dark {
