@@ -9,10 +9,10 @@ const Header = () => {
     Auth.logout();
   };
   return (
-    <header className="bg-primary text-light mb-4 py-3 flex-row align-center">
+    <header className="bg-primary text-light mb-2 py-1 flex-row align-center">
       <div className="container flex-row justify-space-between-lg justify-center align-center">
         
-        <h1 className="m-0"><img alt="asd logo" src="puzzle_logo.png" width="40px"/> ASD Blog</h1>
+        <h2><img alt="ASD logo" src="/puzzle_logo.png" width="30vh"/> ASD Blog</h2>
         <div className="card-header flex-row justify-space-between-md justify-flex-start">
         <button className="m-1"><a href="*">Home</a></button>
         <button className="m-1"><a href="*">Blog</a></button>
