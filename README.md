@@ -15,7 +15,6 @@ Users can comment to a blog
 CSS
 HTML 
 Javascript
-Javascript
 Express.js
 GraphQL
 MongoDB
