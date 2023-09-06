@@ -387,7 +387,7 @@
   }
   
   h4 {
-    color: #1a1a1a;
+    color: #4e4e4e;
     font-size: 1.5rem;
   }
   
@@ -895,7 +895,7 @@
   }
   
   .text-primary {
-    color: #1a1a1a !important;
+    color: #4e4e4e !important;
   }
   
   .text-info {
@@ -907,15 +907,15 @@
   }
   
   .text-default {
-    color: #1a1a1a !important;
+    color: #4e4e4e !important;
   }
   
   .text-light {
-    color: #1a1a1a !important;
+    color: #4e4e4e !important;
   }
   
   .text-dark {
-    color: #1a1a1a !important;
+    color: #4e4e4e !important;
   }
   
   .text-white {
@@ -994,7 +994,7 @@
     border-radius: 0.3rem;
     border: 1px solid transparent;
     outline: none;
-    color: #1a1a1a;
+    color: #4e4e4e;
     background-color: #aeaeae; 
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   }
@@ -1043,7 +1043,7 @@
   
   .btn.btn-info {
     background-color: #FEE242;
-    color: #1a1a1a;
+    color: #4e4e4e;
     text-decoration: none;
   }
   
@@ -1053,7 +1053,8 @@
   
   .btn.btn-light {
     background-color: #F16C6B;
-    color: #1a1a1a;
+    color: #4e4e4e;
+    text-decoration: none;
   }
   
   .btn.btn-light:hover {
@@ -1062,7 +1063,7 @@
   }
   
   .btn.btn-dark {
-    background-color: #1a1a1a;
+    background-color: #4e4e4e;
     color: #d9e9e8;
   }
   
@@ -1072,7 +1073,7 @@
   
   .btn.btn-white {
     background-color: #ffffff;
-    color: #1a1a1a;
+    color: #4e4e4e;
   }
   
   .btn.btn-white:hover {
@@ -1098,7 +1099,7 @@
   }
   
   .card {
-    border: 1px solid #1a1a1a;
+    border: 1px solid #4e4e4e;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
   }
@@ -1106,7 +1107,7 @@
   .card .card-header { /* MAKE IT A BUTTON WITH HOVER */
     padding: 0.375rem;
     background-color: #B1D04A;
-    color: #1a1a1a;
+    color: #4e4e4e;
     border-radius: 6px 6px 2px 2px;
   }
 
@@ -1120,7 +1121,7 @@
   }
   
   .card .card-footer {
-    border-top: 1px solid #1a1a1a;
+    border-top: 1px solid #4e4e4e;
     padding: 0.375rem;
   }
   

@@ -12,7 +12,7 @@ const Header = () => {
     <header className="bg-primary text-light mb-2 py-1 flex-row align-center">
       <div className="container flex-row justify-space-between-lg justify-center align-center">
         
-        <h2><img alt="ASD logo" src="/puzzle_logo.png" width="30vh"/> ASD Blog</h2>
+        <h2><img alt="ASD logo" src="/puzzle_logo.png" width="50vh"/> ASD Blog</h2>
         <div className="card-header flex-row justify-space-between-md justify-flex-start">
         <button className="m-1"><a href="*">Home</a></button>
         <button className="m-1"><a href="*">Blog</a></button>
