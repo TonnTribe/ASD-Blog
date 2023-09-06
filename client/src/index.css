@@ -1104,7 +1104,7 @@
     border-radius: 0.5rem;
   }
   
-  .card .card-header { /* MAKE IT A BUTTON WITH HOVER */
+  .card .card-header {
     padding: 0.375rem;
     background-color: #B1D04A;
     color: #4e4e4e;
