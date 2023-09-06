@@ -1,7 +1,7 @@
 # ASD Blog
 
 # User Story: 
-	We all need help, especially kids with Autism. This application will help them to become more efficient in getting their task done without having issues or problems. This app will allow them to set the schedule for day to day tasks such as hygiene, finishing homework, and other tasks. Tired of not having someone to tell your experiences or ask for advice or help? Well, this app will allow you to freely share your experiences and ask for advice from other Parents in the same situation. 
+We all need help, especially kids with Autism. This application will help them to become more efficient in getting their task done without having issues or problems. This app will allow them to set the schedule for day to day tasks such as hygiene, finishing homework, and other tasks. Tired of not having someone to tell your experiences or ask for advice or help? Well, this app will allow you to freely share your experiences and ask for advice from other Parents in the same situation. 
 
 
 # Project Description:
