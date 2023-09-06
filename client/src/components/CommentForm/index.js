@@ -76,7 +76,7 @@ const CommentForm = ({ postId }) => {
           </form>
         </>
       ) : (
-        <p>
+        <p className="my-">
           You need to be logged in to share your posts. Please{' '}
           <Link to="/login">login</Link> or <Link to="/signup">signup.</Link>
         </p>
